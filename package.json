@@ -1,0 +1,24 @@
+{
+  "name": "localstorage-ttl",
+  "version": "1.0.1",
+  "description": "JS module to save data to localstorage with time to live. Data will expire after set time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liesislukas/localstorage-ttl/"
+  },
+  "keywords": [
+    "localstorage",
+    "expire",
+    "ttl"
+  ],
+  "author": "Lukas Liesis <liesislukas@gmail.com> (https://www.linkedin.com/in/lukas-liesis-05335626)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liesislukas/localstorage-ttl/"
+  },
+  "homepage": "https://github.com/liesislukas/localstorage-ttl/"
+}
