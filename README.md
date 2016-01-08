@@ -17,6 +17,11 @@ ls.set(variable, value, [ttl_ms]);
 ls.get(variable);
 ```
 
+to remove, just use plain js. It works in all usable browsers. http://caniuse.com/#search=localstorage
+```
+localStorage.removeItem(variable);
+```
+
 * ttl_ms = time to live time in ms.
 
 if **ttl_ms** is not set it will be **without expire date** and will be there till user deletes or your other js deletes it.
