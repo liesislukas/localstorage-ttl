@@ -1,6 +1,6 @@
 {
   "name": "localstorage-ttl",
-  "version": "2.0.9",
+  "version": "2.0.10",
   "description": "TS module to save data to localstorage with time to live. Data will expire after set time.",
   "main": "dist/index.js",
   "scripts": {
