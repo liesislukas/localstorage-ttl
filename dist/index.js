@@ -1,6 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.ls = void 0;
 function set(variable, value, ttl_ms) {
     let data = {
         value: value,
@@ -32,5 +29,6 @@ function get(variable) {
     }
     return null;
 }
-exports.ls = { set, get, remove };
-exports.default = exports.ls;
+export const ls = { set, get, remove };
+export default ls;
+//# sourceMappingURL=index.js.map

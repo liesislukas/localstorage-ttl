@@ -7,3 +7,4 @@ export declare const ls: {
     remove: typeof remove;
 };
 export default ls;
+//# sourceMappingURL=index.d.ts.map
